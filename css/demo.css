@@ -1,0 +1,30 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+#content {
+	font-size: 1.2em;
+	width: 95%;
+	padding: 0px 1em;
+	height: auto;
+	position: absolute;
+	top: 32%;
+	z-index: 99;
+}
+.add_indexing {
+	z-index: -99 !important;
+}
+.tools a {
+	height: 30px;
+	line-height: 30px;	
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: #000;
+	font-weight: bold;
+	padding: 0 10px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Text Annotation by AnnotatorJs</title>	
+        <!-- Demo CSS -->
+        <link href="css/demo.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Draw images with canvas</h1>
+        <div class="demo" id="colors_demo">
+            <div class="tools">
+                <a href="javascript:" id="generate_string">Generate String</a>
+                <a href="#canvas" data-download="png">Download as an image</a>
+                <a href="#canvas" data-tool="marker" id="start_annotation">Start Annotation</a>
+                <a href="#canvas" id="erase_all_annotations">Erase all Annotations</a>
+                <a href="#canvas" data-tool="eraser">Eraser</a>
+                <a href="#canvas" data-tool="marker">Marker</a>
+                <br>
+                <!-- Size options -->
+                Sizes :
+                <a href="#canvas" data-size="1"><img src="img/pencil_icon.png" alt="Pencil"/></a>
+                <a href="#canvas" data-size="3"><img src="img/pen_icon.png" alt="Pen"/></a>
+                <a href="#canvas" data-size="5"><img src="img/stick_icon.png" alt="Stick"/></a>
+                <a href="#canvas" data-size="9"><img src="img/smallbrush_icon.png" alt="Small brush"/></a>
+                <a href="#canvas" data-size="15"><img src="img/mediumbrush_icon.png" alt="Medium brush"/></a>
+                <a href="#canvas" data-size="30"><img src="img/bigbrush_icon.png" alt="Big brush"/></a>
+                <a href="#canvas" data-size="60"><img src="img/bucket_icon.png" alt="Huge bucket"/></a>
+                <br><br>
+                <!-- Color options -->
+                Colors:
+                <a href="#canvas" data-color="#f00" style="width: 10px; background: #f00;"></a>
+                <a href="#canvas" data-color="#ff0" style="width: 10px; background: #ff0;"></a>
+                <a href="#canvas" data-color="#0f0" style="width: 10px; background: #0f0;"></a>
+                <a href="#canvas" data-color="#0ff" style="width: 10px; background: #0ff;"></a>
+                <a href="#canvas" data-color="#00f" style="width: 10px; background: #00f;"></a>
+                <a href="#canvas" data-color="#f0f" style="width: 10px; background: #f0f;"></a>
+                <a href="#canvas" data-color="#000" style="width: 10px; background: #000;"></a>
+                <br><br>
+            </div>
+            <div id="canvas_container">
+                <canvas id="canvas" style="border: 1px solid #000;margin-top: 10px;"></canvas>				
+            </div>			
+            <div id="content">
+                <p>
+                    <strong>Jio Ya Maro:</strong> <br>
+                    India will no longer have to pay to talk on the mobile phone. 
+                    It will pay to surf and do other things on the mobile internet,
+                    but not just talk. It is difficult to see how rival operators can 
+                    charge for voice calls once Jio sets the bar low at zero for post-paid
+                    users. And even data prices will hit rock-bottom: just 5 paise per MB.
+                    Jio tariffs will range from S to XXXL, with monthly prices ranging from 
+                    INR 149 to INR 4,999, with the lower end getting you 0.3 GB of data and the higher end 75 GB.
+                </p>
+                <p>
+                    <strong>Jio Ya Maro:</strong> <br>
+                    India will no longer have to pay to talk on the mobile phone. 
+                    It will pay to surf and do other things on the mobile internet,
+                    but not just talk. It is difficult to see how rival operators can 
+                    charge for voice calls once Jio sets the bar low at zero for post-paid
+                    users. And even data prices will hit rock-bottom: just 5 paise per MB.
+                    Jio tariffs will range from S to XXXL, with monthly prices ranging from 
+                    INR 149 to INR 4,999, with the lower end getting you 0.3 GB of data and the higher end 75 GB.
+                </p>
+
+                <p>
+                    <strong>Jio Ya Maro:</strong> <br>
+                    India will no longer have to pay to talk on the mobile phone. 
+                    It will pay to surf and do other things on the mobile internet,
+                    but not just talk. It is difficult to see how rival operators can 
+                    charge for voice calls once Jio sets the bar low at zero for post-paid
+                    users. And even data prices will hit rock-bottom: just 5 paise per MB.
+                    Jio tariffs will range from S to XXXL, with monthly prices ranging from 
+                    INR 149 to INR 4,999, with the lower end getting you 0.3 GB of data and the higher end 75 GB.
+                </p>
+                <p>
+                    <strong>Jio Ya Maro:</strong> <br>
+                    India will no longer have to pay to talk on the mobile phone. 
+                    It will pay to surf and do other things on the mobile internet,
+                    but not just talk. It is difficult to see how rival operators can 
+                    charge for voice calls once Jio sets the bar low at zero for post-paid
+                    users. And even data prices will hit rock-bottom: just 5 paise per MB.
+                    Jio tariffs will range from S to XXXL, with monthly prices ranging from 
+                    INR 149 to INR 4,999, with the lower end getting you 0.3 GB of data and the higher end 75 GB.
+                </p>
+                <p>
+                    <strong>Jio Ya Maro:</strong> <br>
+                    India will no longer have to pay to talk on the mobile phone. 
+                    It will pay to surf and do other things on the mobile internet,
+                    but not just talk. It is difficult to see how rival operators can 
+                    charge for voice calls once Jio sets the bar low at zero for post-paid
+                    users. And even data prices will hit rock-bottom: just 5 paise per MB.
+                    Jio tariffs will range from S to XXXL, with monthly prices ranging from 
+                    INR 149 to INR 4,999, with the lower end getting you 0.3 GB of data and the higher end 75 GB.
+                </p>
+            </div>		
+            <!--
+            <iframe src ="http://www.tutorialspoint.com/index.htm" height="400px" id="content">
+                    [Your browser does not support frames or is currently configured not to display frames. 
+                    Please use an up-to-date browser that is capable of displaying frames.]
+            </iframe>	
+            --->
+        </div>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/sketch.js" type="text/javascript"></script>
+        <script src="js/canvas-action.js" type="text/javascript"></script>
+    </body>
+</html>
